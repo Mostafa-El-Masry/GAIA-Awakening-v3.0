@@ -19,6 +19,7 @@ export default function Intro() {
   const right = [
     { href: "/wealth", label: "Wealth" },
     { href: "/dashboard", label: "Dashboard" },
+    { href: "/core-brain", label: "Core Brain" },
     { href: "/interlog", label: "Intro" },
   ];
   const more = [
@@ -72,7 +73,7 @@ export default function Intro() {
                     href={l.href}
                     aria-label={l.label}
                     title={l.label}
-                    className="gaia-glass gaia-border absolute left-1/2 top-1/2 flex items-center gap-2 rounded-xl border px-3 py-2 text-center backdrop-blur transition-transform transform-gpu hover:shadow-lg hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gaia-accent active:scale-[.99] text-[var(--gaia-text-default)] no-underline"
+                    className="gaia-glass gaia-border absolute left-1/2 top-1/2 flex items-center justify-center gap-2 rounded-xl border px-3 py-2 text-center backdrop-blur transition-transform transform-gpu hover:shadow-lg hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gaia-accent active:scale-[.99] text-[var(--gaia-text-default)] no-underline"
                     style={{ transform }}
                   >
                     {/* small inline icon to improve visual scanning */}

@@ -2,6 +2,7 @@ export const PERMISSION_KEYS = [
   "apollo",
   "archives",
   "classic",
+  "core",
   "dashboard",
   "eleuthia",
   "gallery",
