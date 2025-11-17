@@ -1,1 +1,0 @@
-export type Block=string;export interface Section{ id:string; heading:string; blocks:Block[]; editedAt:string;}export interface Topic{ id:string; title:string; sections:Section[];}export interface ApolloData{ topics:Topic[];}export interface ApolloPrefs{ topicId?:string; sectionId?:string; query?:string;}
