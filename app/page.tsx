@@ -31,8 +31,7 @@ export default function HomePage() {
     { href: "/gallery", label: "Gallery", permission: "gallery" },
     { href: "/apollo", label: "Apollo", permission: "apollo" },
     { href: "/timeline", label: "Timeline", permission: "timeline" },
-    { href: "/health", label: "Health", permission: "health" },
-    { href: "/core-brain", label: "Core Brain", permission: "core" },
+    { href: "/health-awakening", label: "Health", permission: "health" },
     { href: "/wealth", label: "Wealth", permission: "wealth" },
     { href: "/dashboard", label: "Dashboard", permission: "dashboard" },
     // Archives moved under Apollo; remove from main intro links
@@ -72,7 +71,7 @@ export default function HomePage() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="gaia-glass octagon-link absolute left-1/2 top-1/2 flex items-center justify-center w-32 px-6 py-3 text-center text-lg font-medium backdrop-blur transition whitespace-nowrap"
+                className="gaia-glass octagon-link absolute left-1/2 top-1/2 w-32 px-6 py-3 text-center text-lg font-medium backdrop-blur transition whitespace-nowrap"
                 style={style}
               >
                 {link.label}
